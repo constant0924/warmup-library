@@ -1,0 +1,20 @@
+{
+    "name": "namedfish/warmup-library",
+    "description": "project",
+    "type": "PHP",
+    "authors": [
+        {
+            "name": "namedfish",
+        }
+    ],
+    "version": "1.0",
+    "require": {
+        "php": ">=5.3",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "classmap": ["api/", "library/"]
+    }
+}
